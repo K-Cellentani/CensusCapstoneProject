@@ -1,4 +1,4 @@
-# Census Capstone Project: HTTP Interfaces with Spring Boot and PostgresSQL database intergration
+# Census Capstone Project: HTTP Interfaces with Spring Boot and PostgreSQL database intergration
 
 The capstone project focuses on creating HTTP interfaces using Spring Boot, facilitating users to contribute census data to a PostgreSQL database. The project demonstrates skills in Java for backend development, JDBC connections, database management, and web application design. It also integrates Python scripts for dynamic chart generation and utilizes Thymeleaf for dynamic data binding.
 
