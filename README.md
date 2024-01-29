@@ -1,4 +1,4 @@
-# Census Capstone Project: HTTP Interfaces with Spring Boot
+# Census Capstone Project: HTTP Interfaces with Spring Boot and PostgresSQL database intergration
 
 The capstone project focuses on creating HTTP interfaces using Spring Boot, facilitating users to contribute census data to a PostgreSQL database. The project demonstrates skills in Java for backend development, JDBC connections, database management, and web application design. It also integrates Python scripts for dynamic chart generation and utilizes Thymeleaf for dynamic data binding.
 
@@ -31,7 +31,7 @@ The capstone project utilizes census data from the County Business Patterns as t
 
 In summary, these files collectively manage the process of creating tables, loading data from CSV files into a PostgreSQL database, and performing necessary data transformations to ensure consistency and accuracy in the representation of census data for the specified years.
 
-## Spring-Boot Java Files -- website package
+## Spring-Boot Java Files `website package`
 
 1. **HandlingFormSubmissionApplication.java (main file):**
    - The main class to run the Spring Boot application.
@@ -69,7 +69,7 @@ In summary, these files collectively manage the process of creating tables, load
 
 This ensemble of files forms a web application allowing users to submit census data through a form, store the data in a PostgreSQL database, and visualize national averages through dynamically generated charts. The Python script enhances the functionality by creating chart images for user interaction.
 
-## HTML Files -- templates package
+## HTML Files `templates package`
 
 1. **dataform.html:**
    - In the first container, the user can submit new data to the census database. Binds to the `DataForm` object in the `CensusControllerApplication`. Represents the form data fields such as state, year, establishments, employment, and payroll.
