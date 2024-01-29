@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Posted: data recently submitted</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Submission</h1>
+    <p th:text="'state: ' + ${dataForm.state}" />
+    <p th:text="'year: ' + ${dataForm.year}" />
+    <p th:text="'establishments: ' + ${dataForm.estab}" />
+    <p th:text="'employment: ' + ${dataForm.employ}" />
+    <p th:text="'payroll: ' + ${dataForm.payroll}" />
+    <a href="/dataForm">Submit additional census data</a>
+</body>
+</html>

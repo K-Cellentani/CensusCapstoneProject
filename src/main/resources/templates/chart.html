@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Census Date | Capstone Project</title>
+  <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"/>
+  <link th:href="@{/style.css}" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div>
+  <form>
+    <h1>National Averages</h1>
+    <p th:text="'The chart displays the national averages for ' + ${chart.data}" />
+    <br/>
+    <img th:src="@{'./image_' + ${timestamp} + '.jpg'}" alt="" width="470" height="265"/>
+    <p th:text="'image_' + ${timestamp} + '.jpg'" />
+    <br/>
+    <a href="/dataForm">Submit additional data or request a new chart</a>
+  </form>
+</div>
+</body>
+</html>
