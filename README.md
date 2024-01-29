@@ -83,3 +83,8 @@ This ensemble of files forms a web application allowing users to submit census d
    - The image source (`th:src`) is dynamically generated based on the timestamp.
 
 Overall, Thymeleaf is used for dynamic data binding between Java controllers and HTML templates. The variables are passed back and forth seamlessly, enabling the rendering of dynamic content in the web application. Thymeleaf expressions are used to embed Java data into HTML views, making the web pages dynamic and responsive to user interactions.
+
+## For a viewing of a live run see the video below:
+
+https://github.com/K-Cellentani/CensusCapstoneProject/assets/145611899/0cae9098-d364-40a7-a5c7-c23f8a672bfa
+
