@@ -56,7 +56,7 @@ In summary, these files collectively manage the process of creating tables, load
    - Contains a data field to store the selected chart type.
    - Provides getter and setter methods.
 
-6. **NationalAverages:**
+6. **NationalAverages.java:**
    - A Spring component managing the retrieval and processing of census data for chart generation.
    - Uses `JdbcTemplate` for querying PostgreSQL for data.
    - Generates a CSV file (`chartResult.csv`) based on user-selected data type (establishments, employment, annual payroll).
